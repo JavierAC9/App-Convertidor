@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Convertidor de Longitud</title>
+</head>
+<body>
+	
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<h1 class="display-4 text-center">Convertidor de Longitud</h1>
+			<form>
+				<div class="form-group">
+					<input id="mtsInput" type="number" class="form-control form-control-lg" placeholder="Ingrese la cantidad de metros..."> 
+				</div>
+			</form>
+
+		<div id="output">
+        <div class="card bg-success mb-2">
+          <div class="card-body">
+            <h4>Centimetros:</h4>
+            <div id="cmOutput"></div>
+          </div>
+        </div>
+
+        <div class="card bg-success mb-2">
+          <div class="card-body">
+            <h4>Kilometros:</h4>
+            <div id="kmOutput"></div>
+          </div>
+        </div>
+
+        <div class="card bg-success mb-2">
+          <div class="card-body">
+            <h4>Pulgadas:</h4>
+            <div id="pulgadaOutput"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
